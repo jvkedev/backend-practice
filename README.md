@@ -22,6 +22,7 @@ The main goal is to improve backend fundamentals, API design, authentication, an
 - Scalable backend setup
 
 ## Project Structure
+```
 backend/
 │
 ├── src/                    # Source code
@@ -39,9 +40,7 @@ backend/
 ├── package.json
 ├── tsconfig.json
 └── README.md
-
-
-
+```
 
 ## Get Started
 
