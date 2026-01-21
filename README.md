@@ -25,21 +25,22 @@ The main goal is to improve backend fundamentals, API design, authentication, an
 
 backend/
 │
-├── src/ # Source code
-| ├── config
-│ ├── controllers
-│ ├── middlewares
-│ ├── models
-| ├──routes
-│ ├── utils
-| ├── app.ts
-│ └── server.ts
+├── src/                    # Source code
+│   ├── config              # App configuration
+│   ├── controllers         # Request handlers
+│   ├── middlewares         # Custom middlewares
+│   ├── models              # Database models
+│   ├── routes              # API routes
+│   ├── utils               # Utility functions
+│   ├── app.ts              # Express app setup
+│   └── server.ts           # Server entry point
 │
-├── .env # Sample environment variables
+├── .env.example            # Sample environment variables
 ├── .gitignore
 ├── package.json
 ├── tsconfig.json
 └── README.md
+
 
 
 ## Get Started
@@ -62,7 +63,20 @@ cd backend-practice
 npm install
 ```
 
+### 4. Create .env file
+```
+PORT=5000
+MONGO_URL=
 
+# JWT SECRET
+JWT_SECRET=
+JWT_EXPIRES_IN=
+
+# Email sender
+EMAIL_USER=
+EMAIL_PASS=
+
+```
 
 ## Usage
 ### 1. Start the development server
