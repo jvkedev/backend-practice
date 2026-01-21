@@ -23,3 +23,54 @@ The main goal is to improve backend fundamentals, API design, authentication, an
 
 ## Project Structure
 
+backend/
+│
+├── src/ # Source code
+| ├── config
+│ ├── controllers
+│ ├── middlewares
+│ ├── models
+| ├──routes
+│ ├── utils
+| ├── app.ts
+│ └── server.ts
+│
+├── .env # Sample environment variables
+├── .gitignore
+├── package.json
+├── tsconfig.json
+└── README.md
+
+
+## Get Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/jvkedev/backend-practice.git
+
+```
+### 2. Navigate to the project directory
+
+```
+cd backend-practice
+```
+
+### 3. Install Dependencies
+
+```
+npm install
+```
+
+
+
+## Usage
+### 1. Start the development server
+
+```
+npm run dev
+```
+
+## Author
+
+JvkeDev
